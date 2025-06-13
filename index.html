@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mental Health Support Platform</title>
+    <link rel="stylesheet" href="component/styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mind<span>Care</span></div>
+            <button class="hamburger" id="hamburger">&#9776;</button> <!-- ☰ -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="appointment.html">Book</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                
+                <li><a href="#" onclick="openModal('loginModal')">Login</a></li>
+                <li><a href="Registration.jsp">Registration</a></li>
+                <li><a href="#" id="themeToggle">🌙</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Your Mental Wellness Matters</h1>
+            <p>Connect with professionals, access helpful resources, and take the first step to better mental health.
+            </p>
+            <br>
+            <a href="appointmentsss.jsp" class="btn-primary">Book a Session</a>
+        </div>
+    </section>
+   
+    
+    <div class="subhash">
+        <h2>Why Choose Star  Mental Health Insurance</h2>
+    <div class="features">
+
+      <div class="">
+        <h3>14,000+</h3>
+        <p>Network Hospitals to avail<br>cashless claims</p>
+        <img src="https://img.icons8.com/ios-filled/100/hospital.png" alt="Hospital Icon">
+      </div>
+
+      <div class="">
+        <h3>97%</h3>
+        <p>Cashless final approvals<br>within 3 hours.</p>
+        <img src="https://img.icons8.com/ios-filled/100/heart-with-pulse.png" alt="Approval Icon">
+      </div>
+
+      <div class="">
+        <h3>850+</h3>
+        <p>Branch offices across<br>India</p>
+        <img src="https://img.icons8.com/ios-filled/100/company.png" alt="Branch Icon">
+      </div>
+
+      <div class="">
+        <h3>1Cr</h3>
+        <p>Claims settled since<br>inception</p>
+        <img src="https://img.icons8.com/ios-filled/100/rupee.png" alt="Claims Icon">
+      </div>
+
+    </div>
+  </div>
+
+    <hr>
+    <div class="container">
+    <div class="image-container">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.insurancesamadhan.com%2Fblog%2Fmental-illness-covered-under-health-insurance%2F&psig=AOvVaw2gQB_EDdEPe06DsxjVG0V7&ust=1747579703107000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKili_bfqo0DFQAAAAAdAAAAABAE" alt="jpg">
+    </div>
+    <div class="text-container">
+      <h5> Mental Health Insurance</h5>
+      <h2>What is  Mental Health Insurance?</h2>
+      <p>Health insurance for mental health provides coverage for mental illnesses like depression, anxiety, OCD, PTSD, schizophrenia, etc. It covers persons with mental illness for the treatment of mental or psychological disorders, making medical insurance more inclusive for them.</p>
+      <p>All health insurance companies in India have introduced standard health plans for mental illness. These plans offer a sum insured of ₹4 lakh and ₹5 lakh and come with a waiting period of 2 years for pre-existing mental illnesses. Some of the most common types of mental illness covered in health insurance include</p>
+      <a href="#" class="btn">Buy Online</a>
+    </div>
+  </div>
+    
+    <section class="features">
+        <div class="feature">
+            <h2>Trusted Professionals</h2>
+            <p>Licensed counselors available 24/7.</p>
+        </div>
+        <div class="feature">
+            <h2>Self-Help Resources</h2>
+            <p>Articles, videos, and exercises curated by experts.</p>
+        </div>
+        <div class="feature">
+            <h2>Anonymous Chat</h2>
+            <p>Talk safely and privately with support volunteers.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 MindCare | All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2>Login</h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button onclick="alert('Login simulated')">Login</button>
+            <p>Don't have an account? <a href="#" onclick="switchModal('loginModal', 'signupModal')">Sign Up</a></p>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signupModal')">&times;</span>
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button onclick="alert('Signup simulated')">Sign Up</button>
+            <p>Already have an account? <a href="#" onclick="switchModal('signupModal', 'loginModal')">Login</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

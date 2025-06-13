@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!-- chat.html -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Support - MindCare</title>
+  <link rel="stylesheet" href="component/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MindCare</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="appointment.html">Book Session</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="chat.html" class="active">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-banner">
+    <h1>Live Chat Support</h1>
+    <p>Chat anonymously with our virtual assistant.</p>
+  </section>
+
+  <section class="chat-container">
+    <div class="chat-box" id="chatBox">
+      <div class="bot-message">👋 Hi! I’m here to listen. How are you feeling today?</div>
+    </div>
+    <form id="chatForm" class="chat-form">
+      <input type="text" id="chatInput" placeholder="Type your message..." required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MindCare | All Rights Reserved.</p>
+  </footer>
+
+  <script src="component/main.js"></script>
+</body>
+</html>
+

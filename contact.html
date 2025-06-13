@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - MindCare</title>
+  <link rel="stylesheet" href="component/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MindCare</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="appointment.html">Book Session</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-banner">
+    <h1>Contact Us</h1>
+    <p>We’re here to help. Reach out with questions, feedback, or support requests.</p>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-form-container">
+      <form id="contactForm">
+        <label for="contact-name">Your Name:</label>
+        <input type="text" id="contact-name" name="contact-name" required>
+
+        <label for="contact-email">Your Email:</label>
+        <input type="email" id="contact-email" name="contact-email" required>
+
+        <label for="contact-message">Your Message:</label>
+        <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+    <div class="contact-info">
+      <h2>Our Office</h2>
+      <p>Email: support@mindcare.org</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Address: 123 Wellness Street, MentalCare City, India</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MindCare | All Rights Reserved.</p>
+  </footer>
+
+  <script src="component/main.js"></script>
+</body>
+</html>
+
